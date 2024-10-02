@@ -1,4 +1,4 @@
-function [L, U, p] = LUwithPivot(A)
+function [L, U, p] = lu_pivot(A)
 
 [m, n]  = size(A);
 p = 1:n;
