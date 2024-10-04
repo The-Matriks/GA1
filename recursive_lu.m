@@ -12,14 +12,14 @@ function [L, U] = recursive_lu(A)
     A21 = A(mid+1:end, 1:mid);
     A22 = A(mid+1:end, mid+1:end);
     
-    [L11, U11] = recursiveLU(A11);
+    [L11, U11] = recursive_lu(A11);
 
     A12 = L11 \ A12; 
     A21 = A21 / U11; 
     
     A22 = A22 - A21 * A12;
 
-    [L22, U22] = recursiveLU(A22);
+    [L22, U22] = recursive_lu(A22);
 
     L = [L11, zeros(mid, n-mid); A21, L22];
     U = [U11, A12; zeros(n-mid, mid), U22];
