@@ -1,0 +1,590 @@
+n=16, p=1, q=1
+------------------------------------------------------------
+LU Pivot Error 4.6779e-17
+LU Pivot + Forward Error 1.1102e-16
+LU Pivot + Backward Error 2.4197e-16
+LU Pivot + Forward Time 8.4131e-03
+LU Pivot + Backward Time 5.0361e-03
+LU Pivot + Forward FLOPs 3232
+LU Pivot + Backward FLOPs 3232
+------------------------------------------------------------
+------------------------------------------------------------
+Recursive LU + Forward Error 2.5535e-15
+Recursive LU + Backward Error 2.8978e-16
+Recursive LU + Forward Time 7.3490e-03
+Recursive LU + Backward Time 7.4100e-04
+Recursive LU + Forward FLOPs 1432
+Recursive LU + Backward FLOPs 1432
+------------------------------------------------------------
+------------------------------------------------------------
+Block LU + Forward Error 1.1444e-16
+Block LU + Backward Error 2.4825e-16
+Block LU + Forward Time 7.6110e-03
+Block LU + Backward Time 4.4281e-03
+Block LU + Forward FLOPs 3128
+Block LU + Backward FLOPs 3128
+------------------------------------------------------------
+n=16, p=2, q=1
+------------------------------------------------------------
+LU Pivot Error 7.9466e-17
+LU Pivot + Forward Error 5.5511e-17
+LU Pivot + Backward Error 1.2762e-15
+LU Pivot + Forward Time 1.9889e-03
+LU Pivot + Backward Time 2.6319e-03
+LU Pivot + Forward FLOPs 3232
+LU Pivot + Backward FLOPs 3232
+------------------------------------------------------------
+------------------------------------------------------------
+Recursive LU + Forward Error 3.0405e-16
+Recursive LU + Backward Error 3.2009e-15
+Recursive LU + Forward Time 1.2140e-03
+Recursive LU + Backward Time 1.2879e-03
+Recursive LU + Forward FLOPs 1432
+Recursive LU + Backward FLOPs 1432
+------------------------------------------------------------
+------------------------------------------------------------
+Block LU + Forward Error 2.9163e-15
+Block LU + Backward Error 3.4671e-15
+Block LU + Forward Time 4.8649e-03
+Block LU + Backward Time 5.1701e-03
+Block LU + Forward FLOPs 3128
+Block LU + Backward FLOPs 3128
+------------------------------------------------------------
+n=16, p=3, q=4
+------------------------------------------------------------
+LU Pivot Error 2.7562e-16
+LU Pivot + Forward Error 1.9230e-16
+LU Pivot + Backward Error 3.3020e-15
+LU Pivot + Forward Time 2.7180e-03
+LU Pivot + Backward Time 2.8350e-03
+LU Pivot + Forward FLOPs 3232
+LU Pivot + Backward FLOPs 3232
+------------------------------------------------------------
+------------------------------------------------------------
+Recursive LU + Forward Error 2.0718e-15
+Recursive LU + Backward Error 7.9532e-14
+Recursive LU + Forward Time 9.1481e-04
+Recursive LU + Backward Time 7.9584e-04
+Recursive LU + Forward FLOPs 1432
+Recursive LU + Backward FLOPs 1432
+------------------------------------------------------------
+------------------------------------------------------------
+Block LU + Forward Error 7.1813e-15
+Block LU + Backward Error 6.9389e-15
+Block LU + Forward Time 6.8750e-03
+Block LU + Backward Time 6.8028e-03
+Block LU + Forward FLOPs 3128
+Block LU + Backward FLOPs 3128
+------------------------------------------------------------
+n=16, p=4, q=4
+------------------------------------------------------------
+LU Pivot Error 3.4469e-16
+LU Pivot + Forward Error 2.0206e-16
+LU Pivot + Backward Error 9.9301e-16
+LU Pivot + Forward Time 1.8108e-03
+LU Pivot + Backward Time 2.1939e-03
+LU Pivot + Forward FLOPs 3232
+LU Pivot + Backward FLOPs 3232
+------------------------------------------------------------
+------------------------------------------------------------
+Recursive LU + Forward Error 2.2637e-15
+Recursive LU + Backward Error 5.7434e-12
+Recursive LU + Forward Time 9.2912e-04
+Recursive LU + Backward Time 7.9894e-04
+Recursive LU + Forward FLOPs 1432
+Recursive LU + Backward FLOPs 1432
+------------------------------------------------------------
+------------------------------------------------------------
+Block LU + Forward Error 9.3095e-16
+Block LU + Backward Error 1.1910e-14
+Block LU + Forward Time 6.9051e-03
+Block LU + Backward Time 7.0751e-03
+Block LU + Forward FLOPs 3128
+Block LU + Backward FLOPs 3128
+------------------------------------------------------------
+n=16, p=8, q=8
+------------------------------------------------------------
+LU Pivot Error 4.5486e-16
+LU Pivot + Forward Error 2.7756e-16
+LU Pivot + Backward Error 2.2503e-15
+LU Pivot + Forward Time 1.9300e-03
+LU Pivot + Backward Time 1.9240e-03
+LU Pivot + Forward FLOPs 3232
+LU Pivot + Backward FLOPs 3232
+------------------------------------------------------------
+------------------------------------------------------------
+Recursive LU + Forward Error 2.5476e-16
+Recursive LU + Backward Error 1.5107e-14
+Recursive LU + Forward Time 9.6512e-04
+Recursive LU + Backward Time 7.9608e-04
+Recursive LU + Forward FLOPs 1432
+Recursive LU + Backward FLOPs 1432
+------------------------------------------------------------
+------------------------------------------------------------
+Block LU + Forward Error 6.4998e-15
+Block LU + Backward Error 1.8925e-13
+Block LU + Forward Time 5.5289e-03
+Block LU + Backward Time 4.8010e-03
+Block LU + Forward FLOPs 3128
+Block LU + Backward FLOPs 3128
+------------------------------------------------------------
+n=64, p=1, q=1
+------------------------------------------------------------
+LU Pivot Error 1.2413e-16
+LU Pivot + Forward Error 2.2377e-16
+LU Pivot + Backward Error 8.2878e-15
+LU Pivot + Forward Time 0.030303
+LU Pivot + Backward Time 0.035305
+LU Pivot + Forward FLOPs 182912
+LU Pivot + Backward FLOPs 182912
+------------------------------------------------------------
+------------------------------------------------------------
+Recursive LU + Forward Error 9.9930e-16
+Recursive LU + Backward Error 3.2249e-03
+Recursive LU + Forward Time 0.080385
+Recursive LU + Backward Time 0.1242
+Recursive LU + Forward FLOPs 55904
+Recursive LU + Backward FLOPs 55904
+------------------------------------------------------------
+------------------------------------------------------------
+Block LU + Forward Error 3.5108e-16
+Block LU + Backward Error 5.4276e-14
+Block LU + Forward Time 0.2883
+Block LU + Backward Time 0.2601
+Block LU + Forward FLOPs 180960
+Block LU + Backward FLOPs 180960
+------------------------------------------------------------
+n=64, p=2, q=1
+------------------------------------------------------------
+LU Pivot Error 2.8046e-16
+LU Pivot + Forward Error 2.5438e-16
+LU Pivot + Backward Error 6.3991e-12
+LU Pivot + Forward Time 0.023056
+LU Pivot + Backward Time 0.024117
+LU Pivot + Forward FLOPs 182912
+LU Pivot + Backward FLOPs 182912
+------------------------------------------------------------
+------------------------------------------------------------
+Recursive LU + Forward Error 2.5651e-15
+Recursive LU + Backward Error 3.8524e-15
+Recursive LU + Forward Time 0.1517
+Recursive LU + Backward Time 0.1092
+Recursive LU + Forward FLOPs 55904
+Recursive LU + Backward FLOPs 55904
+------------------------------------------------------------
+------------------------------------------------------------
+Block LU + Forward Error 2.2638e-12
+Block LU + Backward Error 1.3566e-15
+Block LU + Forward Time 0.2730
+Block LU + Backward Time 0.2447
+Block LU + Forward FLOPs 180960
+Block LU + Backward FLOPs 180960
+------------------------------------------------------------
+n=64, p=3, q=4
+------------------------------------------------------------
+LU Pivot Error 3.6168e-16
+LU Pivot + Forward Error 3.8858e-16
+LU Pivot + Backward Error 2.9247e-15
+LU Pivot + Forward Time 0.022952
+LU Pivot + Backward Time 0.023879
+LU Pivot + Forward FLOPs 182912
+LU Pivot + Backward FLOPs 182912
+------------------------------------------------------------
+------------------------------------------------------------
+Recursive LU + Forward Error 3.8224e-15
+Recursive LU + Backward Error 1.3015e+06
+Recursive LU + Forward Time 0.1702
+Recursive LU + Backward Time 0.019890
+Recursive LU + Forward FLOPs 55904
+Recursive LU + Backward FLOPs 55904
+------------------------------------------------------------
+------------------------------------------------------------
+Block LU + Forward Error 4.2564e-14
+Block LU + Backward Error 2.0644e-11
+Block LU + Forward Time 0.2971
+Block LU + Backward Time 0.2414
+Block LU + Forward FLOPs 180960
+Block LU + Backward FLOPs 180960
+------------------------------------------------------------
+n=64, p=16, q=16
+------------------------------------------------------------
+LU Pivot Error 1.7822e-15
+LU Pivot + Forward Error 1.2531e-15
+LU Pivot + Backward Error 1.2431e-14
+LU Pivot + Forward Time 0.022017
+LU Pivot + Backward Time 0.023181
+LU Pivot + Forward FLOPs 182912
+LU Pivot + Backward FLOPs 182912
+------------------------------------------------------------
+------------------------------------------------------------
+Recursive LU + Forward Error 1.9064e-14
+Recursive LU + Backward Error 1.4778e-08
+Recursive LU + Forward Time 0.015122
+Recursive LU + Backward Time 5.7330e-03
+Recursive LU + Forward FLOPs 55904
+Recursive LU + Backward FLOPs 55904
+------------------------------------------------------------
+------------------------------------------------------------
+Block LU + Forward Error 1.6526e-13
+Block LU + Backward Error 2.2346e-13
+Block LU + Forward Time 0.2788
+Block LU + Backward Time 0.2403
+Block LU + Forward FLOPs 180960
+Block LU + Backward FLOPs 180960
+------------------------------------------------------------
+n=64, p=32, q=32
+------------------------------------------------------------
+LU Pivot Error 3.3871e-15
+LU Pivot + Forward Error 1.5935e-15
+LU Pivot + Backward Error 3.1022e-15
+LU Pivot + Forward Time 0.022549
+LU Pivot + Backward Time 0.022241
+LU Pivot + Forward FLOPs 182912
+LU Pivot + Backward FLOPs 182912
+------------------------------------------------------------
+------------------------------------------------------------
+Recursive LU + Forward Error 7.8843e-14
+Recursive LU + Backward Error 1.2903e-12
+Recursive LU + Forward Time 7.3059e-03
+Recursive LU + Backward Time 6.3438e-03
+Recursive LU + Forward FLOPs 55904
+Recursive LU + Backward FLOPs 55904
+------------------------------------------------------------
+------------------------------------------------------------
+Block LU + Forward Error 2.5402e-12
+Block LU + Backward Error 1.4273e-11
+Block LU + Forward Time 0.2848
+Block LU + Backward Time 0.2355
+Block LU + Forward FLOPs 180960
+Block LU + Backward FLOPs 180960
+------------------------------------------------------------
+n=128, p=1, q=1
+------------------------------------------------------------
+LU Pivot Error 1.1102e-16
+LU Pivot + Forward Error 2.7756e-16
+LU Pivot + Backward Error 8.2080e-15
+LU Pivot + Forward Time 0.1372
+LU Pivot + Backward Time 0.089858
+LU Pivot + Forward FLOPs 1430784
+LU Pivot + Backward FLOPs 1430784
+------------------------------------------------------------
+------------------------------------------------------------
+Recursive LU + Forward Error 1.1604e-15
+Recursive LU + Backward Error 24.445
+Recursive LU + Forward Time 0.040805
+Recursive LU + Backward Time 0.035577
+Recursive LU + Forward FLOPs 398528
+Recursive LU + Backward FLOPs 398528
+------------------------------------------------------------
+------------------------------------------------------------
+Block LU + Forward Error 2.0214e-15
+Block LU + Backward Error 2.5085e-14
+Block LU + Forward Time 1.9536
+Block LU + Backward Time 2.0053
+Block LU + Forward FLOPs 1422784
+Block LU + Backward FLOPs 1422784
+------------------------------------------------------------
+n=128, p=2, q=1
+------------------------------------------------------------
+LU Pivot Error 1.5701e-16
+LU Pivot + Forward Error 2.7756e-16
+LU Pivot + Backward Error 4.9102e-14
+LU Pivot + Forward Time 0.1340
+LU Pivot + Backward Time 0.086551
+LU Pivot + Forward FLOPs 1430784
+LU Pivot + Backward FLOPs 1430784
+------------------------------------------------------------
+------------------------------------------------------------
+Recursive LU + Forward Error 7.9684e-15
+Recursive LU + Backward Error 1.8523e-14
+Recursive LU + Forward Time 0.013708
+Recursive LU + Backward Time 0.017522
+Recursive LU + Forward FLOPs 398528
+Recursive LU + Backward FLOPs 398528
+------------------------------------------------------------
+------------------------------------------------------------
+Block LU + Forward Error 1.5945e-12
+Block LU + Backward Error 2.5204e-15
+Block LU + Forward Time 1.9438
+Block LU + Backward Time 1.8634
+Block LU + Forward FLOPs 1422784
+Block LU + Backward FLOPs 1422784
+------------------------------------------------------------
+n=128, p=3, q=4
+------------------------------------------------------------
+LU Pivot Error 3.8792e-16
+LU Pivot + Forward Error 6.7987e-16
+LU Pivot + Backward Error 7.3166e-14
+LU Pivot + Forward Time 0.1350
+LU Pivot + Backward Time 0.091834
+LU Pivot + Forward FLOPs 1430784
+LU Pivot + Backward FLOPs 1430784
+------------------------------------------------------------
+------------------------------------------------------------
+Recursive LU + Forward Error 3.1688e-15
+Recursive LU + Backward Error 7.0265e+25
+Recursive LU + Forward Time 0.011373
+Recursive LU + Backward Time 0.011551
+Recursive LU + Forward FLOPs 398528
+Recursive LU + Backward FLOPs 398528
+------------------------------------------------------------
+------------------------------------------------------------
+Block LU + Forward Error 1.1532e-14
+Block LU + Backward Error 1.0758e-12
+Block LU + Forward Time 1.9788
+Block LU + Backward Time 1.8565
+Block LU + Forward FLOPs 1422784
+Block LU + Backward FLOPs 1422784
+------------------------------------------------------------
+n=128, p=32, q=32
+------------------------------------------------------------
+LU Pivot Error 3.8921e-15
+LU Pivot + Forward Error 2.9466e-15
+LU Pivot + Backward Error 8.6492e-15
+LU Pivot + Forward Time 0.1380
+LU Pivot + Backward Time 0.090142
+LU Pivot + Forward FLOPs 1430784
+LU Pivot + Backward FLOPs 1430784
+------------------------------------------------------------
+------------------------------------------------------------
+Recursive LU + Forward Error 8.1769e-14
+Recursive LU + Backward Error 4.7296e-09
+Recursive LU + Forward Time 0.026093
+Recursive LU + Backward Time 0.036243
+Recursive LU + Forward FLOPs 398528
+Recursive LU + Backward FLOPs 398528
+------------------------------------------------------------
+------------------------------------------------------------
+Block LU + Forward Error 3.4858e-13
+Block LU + Backward Error 6.8083e-12
+Block LU + Forward Time 1.9241
+Block LU + Backward Time 1.8979
+Block LU + Forward FLOPs 1422784
+Block LU + Backward FLOPs 1422784
+------------------------------------------------------------
+n=128, p=64, q=64
+------------------------------------------------------------
+LU Pivot Error 7.2875e-15
+LU Pivot + Forward Error 3.9497e-15
+LU Pivot + Backward Error 3.3074e-14
+LU Pivot + Forward Time 0.1468
+LU Pivot + Backward Time 0.092061
+LU Pivot + Forward FLOPs 1430784
+LU Pivot + Backward FLOPs 1430784
+------------------------------------------------------------
+------------------------------------------------------------
+Recursive LU + Forward Error 3.9495e-14
+Recursive LU + Backward Error 4.8012e-13
+Recursive LU + Forward Time 0.014837
+Recursive LU + Backward Time 0.013588
+Recursive LU + Forward FLOPs 398528
+Recursive LU + Backward FLOPs 398528
+------------------------------------------------------------
+------------------------------------------------------------
+Block LU + Forward Error 1.2689e-12
+Block LU + Backward Error 1.0360e-11
+Block LU + Forward Time 1.9187
+Block LU + Backward Time 1.8619
+Block LU + Forward FLOPs 1422784
+Block LU + Backward FLOPs 1422784
+------------------------------------------------------------
+n=256, p=1, q=1
+------------------------------------------------------------
+LU Pivot Error 1.1914e-16
+LU Pivot + Forward Error 5.0801e-16
+LU Pivot + Backward Error 1.6943e-14
+LU Pivot + Forward Time 0.4315
+LU Pivot + Backward Time 0.3781
+LU Pivot + Forward FLOPs 1.1316e+07
+LU Pivot + Backward FLOPs 1.1316e+07
+------------------------------------------------------------
+------------------------------------------------------------
+Recursive LU + Forward Error 3.7405e-15
+Recursive LU + Backward Error 1.4893e+15
+Recursive LU + Forward Time 0.076589
+Recursive LU + Backward Time 0.059424
+Recursive LU + Forward FLOPs 2992512
+Recursive LU + Backward FLOPs 2992512
+------------------------------------------------------------
+------------------------------------------------------------
+Block LU + Forward Error 1.2058e-13
+Block LU + Backward Error 1.5233e-14
+Block LU + Forward Time 15.268
+Block LU + Backward Time 14.979
+Block LU + Forward FLOPs 1.1283e+07
+Block LU + Backward FLOPs 1.1283e+07
+------------------------------------------------------------
+n=256, p=2, q=1
+------------------------------------------------------------
+LU Pivot Error 1.9540e-16
+LU Pivot + Forward Error 6.8664e-16
+LU Pivot + Backward Error 7.9273e-14
+LU Pivot + Forward Time 0.4216
+LU Pivot + Backward Time 0.3880
+LU Pivot + Forward FLOPs 1.1316e+07
+LU Pivot + Backward FLOPs 1.1316e+07
+------------------------------------------------------------
+------------------------------------------------------------
+Recursive LU + Forward Error 1.8678e-14
+Recursive LU + Backward Error 4.9468e-14
+Recursive LU + Forward Time 0.062859
+Recursive LU + Backward Time 0.072074
+Recursive LU + Forward FLOPs 2992512
+Recursive LU + Backward FLOPs 2992512
+------------------------------------------------------------
+------------------------------------------------------------
+Block LU + Forward Error 3.4549e-13
+Block LU + Backward Error 3.7867e-14
+Block LU + Forward Time 14.844
+Block LU + Backward Time 16.418
+Block LU + Forward FLOPs 1.1283e+07
+Block LU + Backward FLOPs 1.1283e+07
+------------------------------------------------------------
+n=256, p=3, q=4
+------------------------------------------------------------
+LU Pivot Error 4.0995e-16
+LU Pivot + Forward Error 1.1356e-15
+LU Pivot + Backward Error 1.2718e-13
+LU Pivot + Forward Time 0.4389
+LU Pivot + Backward Time 0.3945
+LU Pivot + Forward FLOPs 1.1316e+07
+LU Pivot + Backward FLOPs 1.1316e+07
+------------------------------------------------------------
+------------------------------------------------------------
+Recursive LU + Forward Error 7.2638e-15
+Recursive LU + Backward Error 4.0077e+79
+Recursive LU + Forward Time 0.044743
+Recursive LU + Backward Time 0.047110
+Recursive LU + Forward FLOPs 2992512
+Recursive LU + Backward FLOPs 2992512
+------------------------------------------------------------
+------------------------------------------------------------
+Block LU + Forward Error 3.0888e-13
+Block LU + Backward Error 6.2856e-12
+Block LU + Forward Time 14.565
+Block LU + Backward Time 15.247
+Block LU + Forward FLOPs 1.1283e+07
+Block LU + Backward FLOPs 1.1283e+07
+------------------------------------------------------------
+n=256, p=64, q=64
+------------------------------------------------------------
+LU Pivot Error 9.5281e-15
+LU Pivot + Forward Error 6.3510e-15
+LU Pivot + Backward Error 2.5652e-13
+LU Pivot + Forward Time 0.4628
+LU Pivot + Backward Time 0.4106
+LU Pivot + Forward FLOPs 1.1316e+07
+LU Pivot + Backward FLOPs 1.1316e+07
+------------------------------------------------------------
+------------------------------------------------------------
+Recursive LU + Forward Error 2.1745e-11
+Recursive LU + Backward Error 5.5765e-08
+Recursive LU + Forward Time 0.2225
+Recursive LU + Backward Time 0.087035
+Recursive LU + Forward FLOPs 2992512
+Recursive LU + Backward FLOPs 2992512
+------------------------------------------------------------
+------------------------------------------------------------
+Block LU + Forward Error 8.6833e-13
+Block LU + Backward Error 1.7914e-11
+Block LU + Forward Time 14.481
+Block LU + Backward Time 15.933
+Block LU + Forward FLOPs 1.1283e+07
+Block LU + Backward FLOPs 1.1283e+07
+------------------------------------------------------------
+n=256, p=128, q=128
+------------------------------------------------------------
+LU Pivot Error 1.9906e-14
+LU Pivot + Forward Error 1.1870e-14
+LU Pivot + Backward Error 4.2125e-14
+LU Pivot + Forward Time 0.4447
+LU Pivot + Backward Time 0.3982
+LU Pivot + Forward FLOPs 1.1316e+07
+LU Pivot + Backward FLOPs 1.1316e+07
+------------------------------------------------------------
+------------------------------------------------------------
+Recursive LU + Forward Error 3.2646e-12
+Recursive LU + Backward Error 2.5207e-12
+Recursive LU + Forward Time 0.029222
+Recursive LU + Backward Time 0.043359
+Recursive LU + Forward FLOPs 2992512
+Recursive LU + Backward FLOPs 2992512
+------------------------------------------------------------
+------------------------------------------------------------
+Block LU + Forward Error 2.7062e-12
+Block LU + Backward Error 1.7011e-11
+Block LU + Forward Time 14.398
+Block LU + Backward Time 16.059
+Block LU + Forward FLOPs 1.1283e+07
+Block LU + Backward FLOPs 1.1283e+07
+------------------------------------------------------------
+n=512, p=1, q=1
+------------------------------------------------------------
+LU Pivot Error 2.2204e-16
+LU Pivot + Forward Error 6.8692e-16
+LU Pivot + Backward Error 5.1889e-14
+LU Pivot + Forward Time 2.1626
+LU Pivot + Backward Time 2.1900
+LU Pivot + Forward FLOPs 9.0002e+07
+LU Pivot + Backward FLOPs 9.0002e+07
+------------------------------------------------------------
+------------------------------------------------------------
+Recursive LU + Forward Error 6.3917e-15
+Recursive LU + Backward Error 3.0302e+29
+Recursive LU + Forward Time 0.2752
+Recursive LU + Backward Time 0.6515
+Recursive LU + Forward FLOPs 2.3155e+07
+Recursive LU + Backward FLOPs 2.3155e+07
+------------------------------------------------------------
+------------------------------------------------------------
+Block LU + Forward Error 2.0403e-13
+Block LU + Backward Error 4.9522e-14
+Block LU + Forward Time 126.85
+Block LU + Backward Time 127.09
+Block LU + Forward FLOPs 8.9872e+07
+Block LU + Backward FLOPs 8.9872e+07
+------------------------------------------------------------
+n=512, p=2, q=1
+------------------------------------------------------------
+LU Pivot Error 2.2319e-16
+LU Pivot + Forward Error 1.2977e-15
+LU Pivot + Backward Error 4.8864e-12
+LU Pivot + Forward Time 2.0348
+LU Pivot + Backward Time 2.2520
+LU Pivot + Forward FLOPs 9.0002e+07
+LU Pivot + Backward FLOPs 9.0002e+07
+------------------------------------------------------------
+------------------------------------------------------------
+Recursive LU + Forward Error 4.2753e-14
+Recursive LU + Backward Error 6.7022e-13
+Recursive LU + Forward Time 0.1455
+Recursive LU + Backward Time 0.4537
+Recursive LU + Forward FLOPs 2.3155e+07
+Recursive LU + Backward FLOPs 2.3155e+07
+------------------------------------------------------------
+------------------------------------------------------------
+Block LU + Forward Error 3.9765e-11
+Block LU + Backward Error 7.3373e-14
+Block LU + Forward Time 124.48
+Block LU + Backward Time 122.54
+Block LU + Forward FLOPs 8.9872e+07
+Block LU + Backward FLOPs 8.9872e+07
+------------------------------------------------------------
+n=512, p=3, q=4
+------------------------------------------------------------
+LU Pivot Error 4.1721e-16
+LU Pivot + Forward Error 1.5154e-15
+LU Pivot + Backward Error 2.1242e-12
+LU Pivot + Forward Time 2.0815
+LU Pivot + Backward Time 2.0212
+LU Pivot + Forward FLOPs 9.0002e+07
+LU Pivot + Backward FLOPs 9.0002e+07
+------------------------------------------------------------
+------------------------------------------------------------
+Recursive LU + Forward Error 2.9290e-14
+Recursive LU + Backward Error 9.2138e+165
+Recursive LU + Forward Time 0.069680
+Recursive LU + Backward Time 0.078132
+Recursive LU + Forward FLOPs 2.3155e+07
+Recursive LU + Backward FLOPs 2.3155e+07
+------------------------------------------------------------
