@@ -1,7 +1,7 @@
 function [L, U, p] = lu_pivot(A)
 
   [m, n]  = size(A);
-  p = 1:n;
+  p = eye(n);
   L = eye(n);
 
   for k = 1:n-1
@@ -9,7 +9,7 @@ function [L, U, p] = lu_pivot(A)
     maxindex = maxindex + k - 1;
     A([k, maxindex], :) = A([maxindex, k], :);
     L([k, maxindex], 1:k-1) = L([maxindex, k], 1:k-1);
-    p([k, maxindex]) = p([maxindex, k]);
+    p([k, maxindex], :) = p([maxindex, k], :);
     for i = k+1:n 
       L(i, k) = A(i, k) / A(k, k);
       A(i, k:n) = A(i, k:n) - L(i, k) * A(k, k:n);

@@ -1,27 +1,42 @@
-function [L, U] = block_lu(A, blockSize)
-    [n, n] = size(A);
-   
-    L = eye(n);
-    U = zeros(n);
-    
-    for i = 1:blockSize:n
-        iblock = i:min(i+blockSize-1, n);
-        
-        [L11, U11] = lu(A(iblock, iblock));
-        
-        L(iblock, iblock) = L11;
-        U(iblock, iblock) = U11;
-        
-        if i + blockSize <= n
-            remaining = i+blockSize:n;
-            
-            L12 = L11 \ A(iblock, remaining);
-            U(iblock, remaining) = L12;
-            
-            U21 = A(remaining, iblock) / U11;
-            L(remaining, iblock) = U21;
-            
-            A(remaining, remaining) = A(remaining, remaining) - U21 * L12;
+function [L, U] = BlockLU(A, r)
+    n = size(A, 1);
+    if n <= r
+        % Base case: perform a manual LU factorization
+        L = eye(n);
+        U = zeros(n);
+        for i = 1:n
+            for j = i:n  % Fill U
+                sum = 0;
+                for k = 1:i-1
+                    sum = sum + L(i,k) * U(k,j);
+                end
+                U(i,j) = A(i,j) - sum;
+            end
+            for j = i+1:n  % Fill L
+                sum = 0;
+                for k = 1:i-1
+                    sum = sum + L(j,k) * U(k,i);
+                end
+                L(j,i) = (A(j,i) - sum) / U(i,i);
+            end
         end
+    else
+        % Recursive case
+        % Decompose the top-left block
+        [L11, U11] = BlockLU(A(1:r, 1:r), r, r);
+        
+        % Calculate U12 and L21
+        U12 = L11 \ A(1:r, r+1:end);
+        L21 = A(r+1:end, 1:r) / U11;
+        
+        % Update A22
+        A22 = A(r+1:end, r+1:end) - L21 * U12;
+        
+        % Recursive call for the updated A22
+        [L22, U22] = BlockLU(A22, n-r, r);
+        
+        % Assemble the final L and U from the blocks
+        L = [L11, zeros(r, n-r); L21, L22];
+        U = [U11, U12; zeros(n-r, r), U22];
     end
 end

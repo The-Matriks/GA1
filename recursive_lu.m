@@ -1,26 +1,32 @@
 function [L, U] = recursive_lu(A)
-    [n, n] = size(A);
-    
-    if n <= 2
-        [L, U] = lu(A);
-        return;
+    n = size(A, 1);
+    if n == 1
+
+        L = 1;
+        U = A;
+    else
+
+        k = floor(n/2);
+        A11 = A(1:k, 1:k);
+        A12 = A(1:k, k+1:n);
+        A21 = A(k+1:n, 1:k);
+        A22 = A(k+1:n, k+1:n);
+        
+
+        [L11, U11] = recursive_lu(A11);
+        
+
+        L12 = zeros(k, n-k);
+        U12 = U11 \ A12;
+        
+
+        L21 = A21 / U11;
+        U21 = zeros(n-k, k);
+        
+        [L22, U22] = recursive_lu(A22 - L21 * U12);
+        
+        L = [L11, L12; L21, L22];
+        U = [U11, U12; U21, U22];
     end
-
-    mid = floor(n/2);
-    A11 = A(1:mid, 1:mid);
-    A12 = A(1:mid, mid+1:end);
-    A21 = A(mid+1:end, 1:mid);
-    A22 = A(mid+1:end, mid+1:end);
-    
-    [L11, U11] = recursive_lu(A11);
-
-    A12 = L11 \ A12; 
-    A21 = A21 / U11; 
-    
-    A22 = A22 - A21 * A12;
-
-    [L22, U22] = recursive_lu(A22);
-
-    L = [L11, zeros(mid, n-mid); A21, L22];
-    U = [U11, A12; zeros(n-mid, mid), U22];
 end
+
