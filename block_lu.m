@@ -1,5 +1,4 @@
-function [L, U] = BlockLU(A, r)
-    n = size(A, 1);
+function [L, U] = block_lu(A, n, r)
     if n <= r
         % Base case: perform a manual LU factorization
         L = eye(n);
@@ -23,7 +22,7 @@ function [L, U] = BlockLU(A, r)
     else
         % Recursive case
         % Decompose the top-left block
-        [L11, U11] = BlockLU(A(1:r, 1:r), r, r);
+        [L11, U11] = block_lu(A(1:r, 1:r), r, r);
         
         % Calculate U12 and L21
         U12 = L11 \ A(1:r, r+1:end);
@@ -33,7 +32,7 @@ function [L, U] = BlockLU(A, r)
         A22 = A(r+1:end, r+1:end) - L21 * U12;
         
         % Recursive call for the updated A22
-        [L22, U22] = BlockLU(A22, n-r, r);
+        [L22, U22] = block_lu(A22, n-r, r);
         
         % Assemble the final L and U from the blocks
         L = [L11, zeros(r, n-r); L21, L22];
