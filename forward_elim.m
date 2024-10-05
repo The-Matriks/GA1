@@ -1,4 +1,4 @@
-function [x] = forward_sub(L, b)
+function [x] = forward_elim(L, b)
 
   [m, n] = size(L);
   x = zeros(n, 1);
