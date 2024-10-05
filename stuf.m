@@ -74,14 +74,14 @@ for i=1:length(N)
 
         % Block LU + Forward
         start = tic();
-        [L, U] = block_lu(matrix, (n/2)*(n/2));
+        [L, U] = block_lu(matrix, size(matrix, 1), (n/2)*(n/2));
 
         x = forward_elim(L, b);
         block_lu_forward_time = toc(start);
 
         % Block LU + Backward
         start = tic();
-        [L, U] = block_lu(matrix, (n/2)*(n/2));
+        [L, U] = block_lu(matrix, size(matrix, 1), (n/2)*(n/2));
 
         y = back_sub(U, b);
         block_lu_backward_time = toc(start);
