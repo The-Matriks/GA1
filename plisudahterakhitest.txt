@@ -1,0 +1,127 @@
+n=16, p=1, q=1
+Condition Number: 37.069461
+LU Pivot + Forward/Backward Time: 0.025179
+LU Pivot FLOPs: 2008
+------------------------------------------------------------
+n=16, p=0, q=1
+Condition Number: 143.518222
+LU Pivot + Forward/Backward Time: 0.001678
+LU Pivot FLOPs: 2008
+------------------------------------------------------------
+n=16, p=0, q=4
+Condition Number: 262435.262773
+LU Pivot + Forward/Backward Time: 0.001790
+LU Pivot FLOPs: 2008
+------------------------------------------------------------
+n=16, p=0, q=4
+Condition Number: 3413.359926
+LU Pivot + Forward/Backward Time: 0.002545
+LU Pivot FLOPs: 2008
+------------------------------------------------------------
+n=16, p=0, q=8
+Condition Number: 18553.841320
+LU Pivot + Forward/Backward Time: 0.001697
+LU Pivot FLOPs: 2008
+------------------------------------------------------------
+n=64, p=1, q=1
+Condition Number: 355.312923
+LU Pivot + Forward/Backward Time: 0.021807
+LU Pivot FLOPs: 97632
+------------------------------------------------------------
+n=64, p=0, q=1
+Condition Number: 15631.417208
+LU Pivot + Forward/Backward Time: 0.022603
+LU Pivot FLOPs: 97632
+------------------------------------------------------------
+n=64, p=0, q=4
+Condition Number: 44624346518222088.000000
+LU Pivot + Forward/Backward Time: 0.021567
+LU Pivot FLOPs: 97632
+------------------------------------------------------------
+n=64, p=0, q=16
+Condition Number: 122228144643067632.000000
+LU Pivot + Forward/Backward Time: 0.023714
+LU Pivot FLOPs: 97632
+------------------------------------------------------------
+n=64, p=0, q=32
+Condition Number: 23789546551124536.000000
+LU Pivot + Forward/Backward Time: 0.022659
+LU Pivot FLOPs: 97632
+------------------------------------------------------------
+n=128, p=1, q=1
+Condition Number: 1819.993294
+LU Pivot + Forward/Backward Time: 0.144001
+LU Pivot FLOPs: 740032
+------------------------------------------------------------
+n=128, p=0, q=1
+Condition Number: 7985.719226
+LU Pivot + Forward/Backward Time: 0.143586
+LU Pivot FLOPs: 740032
+------------------------------------------------------------
+n=128, p=0, q=4
+Condition Number: 2118769249716578560.000000
+LU Pivot + Forward/Backward Time: 0.167928
+LU Pivot FLOPs: 740032
+------------------------------------------------------------
+n=128, p=0, q=32
+Condition Number: 13704693957328996352.000000
+LU Pivot + Forward/Backward Time: 0.147369
+LU Pivot FLOPs: 740032
+------------------------------------------------------------
+n=128, p=0, q=64
+Condition Number: 1020437344442666752.000000
+LU Pivot + Forward/Backward Time: 0.168076
+LU Pivot FLOPs: 740032
+------------------------------------------------------------
+n=256, p=1, q=1
+Condition Number: 25977.932971
+LU Pivot + Forward/Backward Time: 0.474385
+LU Pivot FLOPs: 5756288
+------------------------------------------------------------
+n=256, p=0, q=1
+Condition Number: 49539530989964.820312
+LU Pivot + Forward/Backward Time: 0.456448
+LU Pivot FLOPs: 5756288
+------------------------------------------------------------
+n=256, p=0, q=4
+Condition Number: 1124363414683185024.000000
+LU Pivot + Forward/Backward Time: 0.531705
+LU Pivot FLOPs: 5756288
+------------------------------------------------------------
+n=256, p=0, q=64
+Condition Number: 708507589502452736.000000
+LU Pivot + Forward/Backward Time: 0.568115
+LU Pivot FLOPs: 5756288
+------------------------------------------------------------
+n=256, p=0, q=128
+Condition Number: 1533005389623746304.000000
+LU Pivot + Forward/Backward Time: 0.559787
+LU Pivot FLOPs: 5756288
+------------------------------------------------------------
+n=512, p=1, q=1
+Condition Number: 7413.704204
+LU Pivot + Forward/Backward Time: 2.192196
+LU Pivot FLOPs: 45394688
+------------------------------------------------------------
+n=512, p=0, q=1
+Condition Number: 1978493722686521.000000
+LU Pivot + Forward/Backward Time: 2.179221
+LU Pivot FLOPs: 45394688
+------------------------------------------------------------
+n=512, p=0, q=4
+Condition Number: 15428795103619844096.000000
+LU Pivot + Forward/Backward Time: 2.086887
+LU Pivot FLOPs: 45394688
+------------------------------------------------------------
+n=512, p=0, q=128
+Condition Number: 16829043658641569792.000000
+LU Pivot + Forward/Backward Time: 1.992266
+LU Pivot FLOPs: 45394688
+------------------------------------------------------------
+n=512, p=0, q=256
+Condition Number: 61542140944652853248.000000
+LU Pivot + Forward/Backward Time: 3.151383
+LU Pivot FLOPs: 45394688
+------------------------------------------------------------
+n=1000, p=1, q=1
+Condition Number: 9957.539008

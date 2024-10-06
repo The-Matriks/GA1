@@ -1,0 +1,540 @@
+n=16, p=1, q=1
+Condition Number: 1899.951847
+LU Pivot Error 1.110223e-16
+LU Pivot + Forward Error 5.551115e-17
+LU Pivot + Backward Error 1.172176e+00
+LU Pivot FLOPs Count: 2008
+LU Pivot FLOPs Complexity: 3.210667e+03
+------------------------------------------------------------
+Recursive LU + Forward Error 1.570092e-16
+Recursive LU + Backward Error 7.736367e+00
+Recursive LU FLOPs Count: 768
+Recursive LU FLOPs Complexity: 3.210667e+03
+------------------------------------------------------------
+Block LU + Forward Error 3.682193e-16
+Block LU + Backward Error 5.423670e+00
+Block LU FLOPs Count: 896
+Block LU FLOPs Complexity: 3.210667e+03
+------------------------------------------------------------
+n=16, p=2, q=1
+Condition Number: 78.490796
+LU Pivot Error 1.592717e-16
+LU Pivot + Forward Error 1.110223e-16
+LU Pivot + Backward Error 1.327952e+00
+LU Pivot FLOPs Count: 2008
+LU Pivot FLOPs Complexity: 3.210667e+03
+------------------------------------------------------------
+Recursive LU + Forward Error 6.231111e-16
+Recursive LU + Backward Error 1.684641e+01
+Recursive LU FLOPs Count: 768
+Recursive LU FLOPs Complexity: 3.210667e+03
+------------------------------------------------------------
+Block LU + Forward Error 1.315977e-15
+Block LU + Backward Error 4.457026e+01
+Block LU FLOPs Count: 896
+Block LU FLOPs Complexity: 3.210667e+03
+------------------------------------------------------------
+n=16, p=3, q=4
+Condition Number: 80.016355
+LU Pivot Error 2.368266e-16
+LU Pivot + Forward Error 1.665335e-16
+LU Pivot + Backward Error 1.630561e+00
+LU Pivot FLOPs Count: 2008
+LU Pivot FLOPs Complexity: 3.210667e+03
+------------------------------------------------------------
+Recursive LU + Forward Error 7.731809e-16
+Recursive LU + Backward Error 3.695743e+00
+Recursive LU FLOPs Count: 768
+Recursive LU FLOPs Complexity: 3.210667e+03
+------------------------------------------------------------
+Block LU + Forward Error 5.020001e-15
+Block LU + Backward Error 4.814817e+01
+Block LU FLOPs Count: 896
+Block LU FLOPs Complexity: 3.210667e+03
+------------------------------------------------------------
+n=16, p=4, q=4
+Condition Number: 95.059505
+LU Pivot Error 2.899985e-16
+LU Pivot + Forward Error 5.564219e-16
+LU Pivot + Backward Error 3.039426e+00
+LU Pivot FLOPs Count: 2008
+LU Pivot FLOPs Complexity: 3.210667e+03
+------------------------------------------------------------
+Recursive LU + Forward Error 4.408945e-15
+Recursive LU + Backward Error 2.000766e+01
+Recursive LU FLOPs Count: 768
+Recursive LU FLOPs Complexity: 3.210667e+03
+------------------------------------------------------------
+Block LU + Forward Error 1.922963e-15
+Block LU + Backward Error 2.173462e+01
+Block LU FLOPs Count: 896
+Block LU FLOPs Complexity: 3.210667e+03
+------------------------------------------------------------
+n=16, p=8, q=8
+Condition Number: 847.193368
+LU Pivot Error 6.556044e-16
+LU Pivot + Forward Error 1.755417e-16
+LU Pivot + Backward Error 1.689129e+00
+LU Pivot FLOPs Count: 2008
+LU Pivot FLOPs Complexity: 3.210667e+03
+------------------------------------------------------------
+Recursive LU + Forward Error 8.163160e-16
+Recursive LU + Backward Error 5.180576e+00
+Recursive LU FLOPs Count: 768
+Recursive LU FLOPs Complexity: 3.210667e+03
+------------------------------------------------------------
+Block LU + Forward Error 1.864381e-15
+Block LU + Backward Error 7.383900e+00
+Block LU FLOPs Count: 896
+Block LU FLOPs Complexity: 3.210667e+03
+------------------------------------------------------------
+n=64, p=1, q=1
+Condition Number: 219.935510
+LU Pivot Error 1.177954e-16
+LU Pivot + Forward Error 1.716588e-16
+LU Pivot + Backward Error 2.692508e+00
+LU Pivot FLOPs Count: 97632
+LU Pivot FLOPs Complexity: 1.828267e+05
+------------------------------------------------------------
+Recursive LU + Forward Error 9.288792e-16
+Recursive LU + Backward Error 2.230917e+01
+Recursive LU FLOPs Count: 12288
+Recursive LU FLOPs Complexity: 1.828267e+05
+------------------------------------------------------------
+Block LU + Forward Error 4.710277e-16
+Block LU + Backward Error 1.378994e+01
+Block LU FLOPs Count: 22272
+Block LU FLOPs Complexity: 1.828267e+05
+------------------------------------------------------------
+n=64, p=2, q=1
+Condition Number: 6666.977594
+LU Pivot Error 1.577185e-16
+LU Pivot + Forward Error 1.967516e-16
+LU Pivot + Backward Error 1.984405e+00
+LU Pivot FLOPs Count: 97632
+LU Pivot FLOPs Complexity: 1.828267e+05
+------------------------------------------------------------
+Recursive LU + Forward Error 7.065539e-15
+Recursive LU + Backward Error 8.358684e+01
+Recursive LU FLOPs Count: 12288
+Recursive LU FLOPs Complexity: 1.828267e+05
+------------------------------------------------------------
+Block LU + Forward Error 1.670812e-14
+Block LU + Backward Error 1.746258e+02
+Block LU FLOPs Count: 22272
+Block LU FLOPs Complexity: 1.828267e+05
+------------------------------------------------------------
+n=64, p=3, q=4
+Condition Number: 1739.753974
+LU Pivot Error 3.895921e-16
+LU Pivot + Forward Error 3.856084e-16
+LU Pivot + Backward Error 3.659731e+00
+LU Pivot FLOPs Count: 97632
+LU Pivot FLOPs Complexity: 1.828267e+05
+------------------------------------------------------------
+Recursive LU + Forward Error 2.512148e-15
+Recursive LU + Backward Error 4.578481e+06
+Recursive LU FLOPs Count: 12288
+Recursive LU FLOPs Complexity: 1.828267e+05
+------------------------------------------------------------
+Block LU + Forward Error 1.832148e-14
+Block LU + Backward Error 3.463714e+02
+Block LU FLOPs Count: 22272
+Block LU FLOPs Complexity: 1.828267e+05
+------------------------------------------------------------
+n=64, p=16, q=16
+Condition Number: 39453.275513
+LU Pivot Error 1.730440e-15
+LU Pivot + Forward Error 1.442289e-15
+LU Pivot + Backward Error 8.156418e+00
+LU Pivot FLOPs Count: 97632
+LU Pivot FLOPs Complexity: 1.828267e+05
+------------------------------------------------------------
+Recursive LU + Forward Error 1.571958e-14
+Recursive LU + Backward Error 6.228263e+01
+Recursive LU FLOPs Count: 12288
+Recursive LU FLOPs Complexity: 1.828267e+05
+------------------------------------------------------------
+Block LU + Forward Error 1.594777e-14
+Block LU + Backward Error 4.589758e+01
+Block LU FLOPs Count: 22272
+Block LU FLOPs Complexity: 1.828267e+05
+------------------------------------------------------------
+n=64, p=32, q=32
+Condition Number: 4797.900216
+LU Pivot Error 3.938250e-15
+LU Pivot + Forward Error 2.412980e-15
+LU Pivot + Backward Error 9.390704e+00
+LU Pivot FLOPs Count: 97632
+LU Pivot FLOPs Complexity: 1.828267e+05
+------------------------------------------------------------
+Recursive LU + Forward Error 8.398536e-13
+Recursive LU + Backward Error 1.371482e+03
+Recursive LU FLOPs Count: 12288
+Recursive LU FLOPs Complexity: 1.828267e+05
+------------------------------------------------------------
+Block LU + Forward Error 1.922934e-13
+Block LU + Backward Error 6.063492e+02
+Block LU FLOPs Count: 22272
+Block LU FLOPs Complexity: 1.828267e+05
+------------------------------------------------------------
+n=128, p=1, q=1
+Condition Number: 1112.541419
+LU Pivot Error 1.185719e-16
+LU Pivot + Forward Error 2.558938e-16
+LU Pivot + Backward Error 3.552184e+00
+LU Pivot FLOPs Count: 740032
+LU Pivot FLOPs Complexity: 1.430613e+06
+------------------------------------------------------------
+Recursive LU + Forward Error 1.853659e-15
+Recursive LU + Backward Error 5.798532e+01
+Recursive LU FLOPs Count: 49152
+Recursive LU FLOPs Complexity: 1.430613e+06
+------------------------------------------------------------
+Block LU + Forward Error 4.956198e-14
+Block LU + Backward Error 6.590394e+02
+Block LU FLOPs Count: 132608
+Block LU FLOPs Complexity: 1.430613e+06
+------------------------------------------------------------
+n=128, p=2, q=1
+Condition Number: 5941964.109663
+LU Pivot Error 1.570093e-16
+LU Pivot + Forward Error 3.090730e-16
+LU Pivot + Backward Error 2.937366e+00
+LU Pivot FLOPs Count: 740032
+LU Pivot FLOPs Complexity: 1.430613e+06
+------------------------------------------------------------
+Recursive LU + Forward Error 1.307783e-14
+Recursive LU + Backward Error 2.136976e+02
+Recursive LU FLOPs Count: 49152
+Recursive LU FLOPs Complexity: 1.430613e+06
+------------------------------------------------------------
+Block LU + Forward Error 1.180329e-11
+Block LU + Backward Error 2.455484e+05
+Block LU FLOPs Count: 132608
+Block LU FLOPs Complexity: 1.430613e+06
+------------------------------------------------------------
+n=128, p=3, q=4
+Condition Number: 250.988578
+LU Pivot Error 4.091399e-16
+LU Pivot + Forward Error 6.359601e-16
+LU Pivot + Backward Error 5.553082e+00
+LU Pivot FLOPs Count: 740032
+LU Pivot FLOPs Complexity: 1.430613e+06
+------------------------------------------------------------
+Recursive LU + Forward Error 4.696324e-15
+Recursive LU + Backward Error 6.568564e+21
+Recursive LU FLOPs Count: 49152
+Recursive LU FLOPs Complexity: 1.430613e+06
+------------------------------------------------------------
+Block LU + Forward Error 1.009745e-14
+Block LU + Backward Error 2.397369e+02
+Block LU FLOPs Count: 132608
+Block LU FLOPs Complexity: 1.430613e+06
+------------------------------------------------------------
+n=128, p=32, q=32
+Condition Number: 2797.237529
+LU Pivot Error 3.841527e-15
+LU Pivot + Forward Error 4.493404e-15
+LU Pivot + Backward Error 1.776861e+01
+LU Pivot FLOPs Count: 740032
+LU Pivot FLOPs Complexity: 1.430613e+06
+------------------------------------------------------------
+Recursive LU + Forward Error 1.346249e-13
+Recursive LU + Backward Error 4.757647e+02
+Recursive LU FLOPs Count: 49152
+Recursive LU FLOPs Complexity: 1.430613e+06
+------------------------------------------------------------
+Block LU + Forward Error 1.134429e-13
+Block LU + Backward Error 9.195914e+01
+Block LU FLOPs Count: 132608
+Block LU FLOPs Complexity: 1.430613e+06
+------------------------------------------------------------
+n=128, p=64, q=64
+Condition Number: 11064.911591
+LU Pivot Error 7.497724e-15
+LU Pivot + Forward Error 4.520155e-15
+LU Pivot + Backward Error 1.317233e+01
+LU Pivot FLOPs Count: 740032
+LU Pivot FLOPs Complexity: 1.430613e+06
+------------------------------------------------------------
+Recursive LU + Forward Error 1.503129e-12
+Recursive LU + Backward Error 1.645566e+03
+Recursive LU FLOPs Count: 49152
+Recursive LU FLOPs Complexity: 1.430613e+06
+------------------------------------------------------------
+Block LU + Forward Error 8.748275e-13
+Block LU + Backward Error 1.875153e+02
+Block LU FLOPs Count: 132608
+Block LU FLOPs Complexity: 1.430613e+06
+------------------------------------------------------------
+n=256, p=1, q=1
+Condition Number: 3578.126218
+LU Pivot Error 1.203886e-16
+LU Pivot + Forward Error 3.974599e-16
+LU Pivot + Backward Error 4.146920e+00
+LU Pivot FLOPs Count: 5756288
+LU Pivot FLOPs Complexity: 1.131537e+07
+------------------------------------------------------------
+Recursive LU + Forward Error 5.591078e-15
+Recursive LU + Backward Error 6.291456e+07
+Recursive LU FLOPs Count: 196608
+Recursive LU FLOPs Complexity: 1.131537e+07
+------------------------------------------------------------
+Block LU + Forward Error 9.392477e-15
+Block LU + Backward Error 2.747738e+02
+Block LU FLOPs Count: 879616
+Block LU FLOPs Complexity: 1.131537e+07
+------------------------------------------------------------
+n=256, p=2, q=1
+Condition Number: 309770.594648
+LU Pivot Error 1.712141e-16
+LU Pivot + Forward Error 9.177261e-16
+LU Pivot + Backward Error 4.606910e+00
+LU Pivot FLOPs Count: 5756288
+LU Pivot FLOPs Complexity: 1.131537e+07
+------------------------------------------------------------
+Recursive LU + Forward Error 1.796989e-14
+Recursive LU + Backward Error 4.000874e+02
+Recursive LU FLOPs Count: 196608
+Recursive LU FLOPs Complexity: 1.131537e+07
+------------------------------------------------------------
+Block LU + Forward Error 2.777258e-12
+Block LU + Backward Error 6.842795e+04
+Block LU FLOPs Count: 879616
+Block LU FLOPs Complexity: 1.131537e+07
+------------------------------------------------------------
+n=256, p=3, q=4
+Condition Number: 1268.797044
+LU Pivot Error 3.528551e-16
+LU Pivot + Forward Error 1.136078e-15
+LU Pivot + Backward Error 8.524630e+00
+LU Pivot FLOPs Count: 5756288
+LU Pivot FLOPs Complexity: 1.131537e+07
+------------------------------------------------------------
+Recursive LU + Forward Error 1.490501e-14
+Recursive LU + Backward Error 8.330329e+66
+Recursive LU FLOPs Count: 196608
+Recursive LU FLOPs Complexity: 1.131537e+07
+------------------------------------------------------------
+Block LU + Forward Error 4.330844e-14
+Block LU + Backward Error 4.158077e+02
+Block LU FLOPs Count: 879616
+Block LU FLOPs Complexity: 1.131537e+07
+------------------------------------------------------------
+n=256, p=64, q=64
+Condition Number: 3721.415003
+LU Pivot Error 9.014309e-15
+LU Pivot + Forward Error 8.942261e-15
+LU Pivot + Backward Error 2.374356e+01
+LU Pivot FLOPs Count: 5756288
+LU Pivot FLOPs Complexity: 1.131537e+07
+------------------------------------------------------------
+Recursive LU + Forward Error 1.179921e-13
+Recursive LU + Backward Error 2.097443e+02
+Recursive LU FLOPs Count: 196608
+Recursive LU FLOPs Complexity: 1.131537e+07
+------------------------------------------------------------
+Block LU + Forward Error 4.251925e-12
+Block LU + Backward Error 2.939826e+03
+Block LU FLOPs Count: 879616
+Block LU FLOPs Complexity: 1.131537e+07
+------------------------------------------------------------
+n=256, p=128, q=128
+Condition Number: 27656.941206
+LU Pivot Error 2.076215e-14
+LU Pivot + Forward Error 1.110768e-14
+LU Pivot + Backward Error 3.087556e+01
+LU Pivot FLOPs Count: 5756288
+LU Pivot FLOPs Complexity: 1.131537e+07
+------------------------------------------------------------
+Recursive LU + Forward Error 1.270654e-13
+Recursive LU + Backward Error 7.788223e+01
+Recursive LU FLOPs Count: 196608
+Recursive LU FLOPs Complexity: 1.131537e+07
+------------------------------------------------------------
+Block LU + Forward Error 4.877675e-12
+Block LU + Backward Error 9.840888e+02
+Block LU FLOPs Count: 879616
+Block LU FLOPs Complexity: 1.131537e+07
+------------------------------------------------------------
+n=512, p=1, q=1
+Condition Number: 2085.632843
+LU Pivot Error 2.220446e-16
+LU Pivot + Forward Error 5.446037e-16
+LU Pivot + Backward Error 5.847348e+00
+LU Pivot FLOPs Count: 45394688
+LU Pivot FLOPs Complexity: 9.000175e+07
+------------------------------------------------------------
+Recursive LU + Forward Error 1.130968e-13
+Recursive LU + Backward Error 5.778118e+23
+Recursive LU FLOPs Count: 786432
+Recursive LU FLOPs Complexity: 9.000175e+07
+------------------------------------------------------------
+Block LU + Forward Error 2.855501e-14
+Block LU + Backward Error 8.411424e+02
+Block LU FLOPs Count: 6313984
+Block LU FLOPs Complexity: 9.000175e+07
+------------------------------------------------------------
+n=512, p=2, q=1
+Condition Number: 1427539928452.612061
+LU Pivot Error 2.483997e-16
+LU Pivot + Forward Error 1.700312e-15
+LU Pivot + Backward Error 7.665184e+00
+LU Pivot FLOPs Count: 45394688
+LU Pivot FLOPs Complexity: 9.000175e+07
+------------------------------------------------------------
+Recursive LU + Forward Error 3.883886e-14
+Recursive LU + Backward Error 5.110786e+02
+Recursive LU FLOPs Count: 786432
+Recursive LU FLOPs Complexity: 9.000175e+07
+------------------------------------------------------------
+Block LU + Forward Error 1.782718e-05
+Block LU + Backward Error 5.905262e+11
+Block LU FLOPs Count: 6313984
+Block LU FLOPs Complexity: 9.000175e+07
+------------------------------------------------------------
+n=512, p=3, q=4
+Condition Number: 195549.170263
+LU Pivot Error 4.881199e-16
+LU Pivot + Forward Error 1.851528e-15
+LU Pivot + Backward Error 1.178602e+01
+LU Pivot FLOPs Count: 45394688
+LU Pivot FLOPs Complexity: 9.000175e+07
+------------------------------------------------------------
+Recursive LU + Forward Error 8.828420e-14
+Recursive LU + Backward Error 4.765641e+169
+Recursive LU FLOPs Count: 786432
+Recursive LU FLOPs Complexity: 9.000175e+07
+------------------------------------------------------------
+Block LU + Forward Error 1.532619e-13
+Block LU + Backward Error 1.163276e+03
+Block LU FLOPs Count: 6313984
+Block LU FLOPs Complexity: 9.000175e+07
+------------------------------------------------------------
+n=512, p=128, q=128
+Condition Number: 7403.154705
+LU Pivot Error 2.381007e-14
+LU Pivot + Forward Error 2.697354e-14
+LU Pivot + Backward Error 5.306943e+01
+LU Pivot FLOPs Count: 45394688
+LU Pivot FLOPs Complexity: 9.000175e+07
+------------------------------------------------------------
+Recursive LU + Forward Error 1.836586e-11
+Recursive LU + Backward Error 6.711474e+04
+Recursive LU FLOPs Count: 786432
+Recursive LU FLOPs Complexity: 9.000175e+07
+------------------------------------------------------------
+Block LU + Forward Error 4.671180e-12
+Block LU + Backward Error 1.207123e+03
+Block LU FLOPs Count: 6313984
+Block LU FLOPs Complexity: 9.000175e+07
+------------------------------------------------------------
+n=512, p=256, q=256
+Condition Number: 80530.937969
+LU Pivot Error 5.047005e-14
+LU Pivot + Forward Error 3.339641e-14
+LU Pivot + Backward Error 4.759898e+01
+LU Pivot FLOPs Count: 45394688
+LU Pivot FLOPs Complexity: 9.000175e+07
+------------------------------------------------------------
+Recursive LU + Forward Error 1.631514e-12
+Recursive LU + Backward Error 1.506789e+02
+Recursive LU FLOPs Count: 786432
+Recursive LU FLOPs Complexity: 9.000175e+07
+------------------------------------------------------------
+Block LU + Forward Error 1.438009e-11
+Block LU + Backward Error 6.326254e+03
+Block LU FLOPs Count: 6313984
+Block LU FLOPs Complexity: 9.000175e+07
+------------------------------------------------------------
+n=1000, p=1, q=1
+Condition Number: 13828.375075
+LU Pivot Error 1.942994e-16
+LU Pivot + Forward Error 8.063759e-16
+LU Pivot + Backward Error 7.941267e+00
+LU Pivot FLOPs Count: 335833500
+LU Pivot FLOPs Complexity: 6.686647e+08
+------------------------------------------------------------
+Recursive LU + Forward Error 1.654481e-14
+Recursive LU + Backward Error 1.303176e+47
+Recursive LU FLOPs Count: 3000000
+Recursive LU FLOPs Complexity: 6.686647e+08
+------------------------------------------------------------
+Block LU + Forward Error 5.418742e-14
+Block LU + Backward Error 1.947445e+03
+Block LU FLOPs Count: 44418000
+Block LU FLOPs Complexity: 6.686647e+08
+------------------------------------------------------------
+n=1000, p=2, q=1
+Condition Number: 272405549.271625
+LU Pivot Error 2.220446e-16
+LU Pivot + Forward Error 9.863989e-16
+LU Pivot + Backward Error 9.775986e+00
+LU Pivot FLOPs Count: 335833500
+LU Pivot FLOPs Complexity: 6.686647e+08
+------------------------------------------------------------
+Recursive LU + Forward Error 3.108977e-14
+Recursive LU + Backward Error 6.344540e+02
+Recursive LU FLOPs Count: 3000000
+Recursive LU FLOPs Complexity: 6.686647e+08
+------------------------------------------------------------
+Block LU + Forward Error 3.981299e-09
+Block LU + Backward Error 1.158121e+08
+Block LU FLOPs Count: 44418000
+Block LU FLOPs Complexity: 6.686647e+08
+------------------------------------------------------------
+n=1000, p=3, q=4
+Condition Number: 84725.368032
+LU Pivot Error 4.609389e-16
+LU Pivot + Forward Error 2.088031e-15
+LU Pivot + Backward Error 1.625618e+01
+LU Pivot FLOPs Count: 335833500
+LU Pivot FLOPs Complexity: 6.686647e+08
+------------------------------------------------------------
+Recursive LU + Forward Error 6.105339e-14
+Recursive LU + Backward Error NaN
+Recursive LU FLOPs Count: 3000000
+Recursive LU FLOPs Complexity: 6.686647e+08
+------------------------------------------------------------
+Block LU + Forward Error 1.920072e-13
+Block LU + Backward Error 2.253006e+03
+Block LU FLOPs Count: 44418000
+Block LU FLOPs Complexity: 6.686647e+08
+------------------------------------------------------------
+n=1000, p=250, q=250
+Condition Number: 561949.442128
+LU Pivot Error 6.054064e-14
+LU Pivot + Forward Error 5.567730e-14
+LU Pivot + Backward Error 7.307083e+01
+LU Pivot FLOPs Count: 335833500
+LU Pivot FLOPs Complexity: 6.686647e+08
+------------------------------------------------------------
+Recursive LU + Forward Error 2.129125e-10
+Recursive LU + Backward Error 1.283386e+05
+Recursive LU FLOPs Count: 3000000
+Recursive LU FLOPs Complexity: 6.686647e+08
+------------------------------------------------------------
+Block LU + Forward Error 1.931370e-11
+Block LU + Backward Error 6.038969e+03
+Block LU FLOPs Count: 44418000
+Block LU FLOPs Complexity: 6.686647e+08
+------------------------------------------------------------
+n=1000, p=500, q=500
+Condition Number: 40685.925162
+LU Pivot Error 1.381330e-13
+LU Pivot + Forward Error 8.743488e-14
+LU Pivot + Backward Error 8.964567e+01
+LU Pivot FLOPs Count: 335833500
+LU Pivot FLOPs Complexity: 6.686647e+08
+------------------------------------------------------------
+Recursive LU + Forward Error 4.103654e-11
+Recursive LU + Backward Error 4.447384e+03
+Recursive LU FLOPs Count: 3000000
+Recursive LU FLOPs Complexity: 6.686647e+08
+------------------------------------------------------------
+Block LU + Forward Error 2.027380e-11
+Block LU + Backward Error 8.051413e+03
+Block LU FLOPs Count: 44418000
+Block LU FLOPs Complexity: 6.686647e+08
+------------------------------------------------------------
